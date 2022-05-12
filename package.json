@@ -1,10 +1,11 @@
 {
-  "name": "mocks",
+  "name": "cabbage-luv-menu",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "source": "src/index.html",
   "scripts": {
-    "dev": "npx parcel src/index.html"
+    "dev": "parcel",
+    "build": "parcel build"
   },
   "keywords": [],
   "author": "",
